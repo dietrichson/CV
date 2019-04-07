@@ -1,6 +1,6 @@
 ---
 name: Aleksander Dietrichson, PhD
-position: "Chief Data Scientist"
+position: "Data Scientist and E-Learning Specialist"
 email: "dietrichson@gmail.com"
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
@@ -13,4 +13,10 @@ library(vitae)
 
 # Bio
 
-Aleksander (Sasha) Dietrichson obtained his PhD in Comparative Education from Columbia University in 2001. 
+Aleksander (Sasha) Dietrichson obtained a PhD in Comparative Education from Columbia University in 2001. He also holds a Master's degree from Teachers College - Columbia University and a Bachelor of Arts from the University of Bergen - Norway. His doctoral research was on methodologies for measuring browsing behavior. His research interests have been varied, including quantitative linguistics, artificial intelligence and quantitative methodologies for analyzing student interaction with tutoring systems. 
+
+Upon graduation Dr. Dietrichson founded UVCMS, an e-learning company based in Buenos Aires, Argentina. During his eight-year tenure at this company he was deeply involved with integration LMSs to publishers' content, as the company was retained by and worked closely with the digital initiatives of both Pearson and McGraw-Hill. He is the inventor of *Katana*, an LTI based tool to connect McGraw-Hill's content to various LMS. He also invented and designed the *Content Authoring Engine* (CAE), an online tool to streamline the development of 150+ courses for McGraw-Hill as part of their MHOL initiative. 
+
+After his tenure at UVCMS, Dr. Dietrichson founded X-Ray Research in order to concentrate on research based products. He is the inventor and lead designer of X-Ray Learning Analytics -- a software package to analyze student data and generate predictive retention risk models. X-Ray Learning Analytics was acquired by Blackboard in 2015 and Dr. Dietrichson was retained through 2018 in order to facilitate a smooth transfer of the Intellectual Property. During his tenure at Blackboard he was also involved in research on auto-grading of discussion group contributions, meta-predictive modeling and interface design. 
+
+Alongside his business career, Aleksander Dietrichson also continued to pursue his academic interests. He was a visiting researcher at Keio University in Tokyo , working with Keio faculty and researchers to develop and implement curriculum for online courses in academic English. He is a frequent presenter at the conferences of the *International Linguistic Associations* (ILA) with topics ranging form quantitative stylistics, onomastics and social network analysis. Dr. Dietrichson is also a contributor to the Data Science Community with several presentations at R-conferences and two R-packages published to the *Comprehensive R Archive Network* (CRAN). 

@@ -1,18 +1,21 @@
-"role","company","loc","dates","details"
-"Chief Data Scientist","X-Ray Research","New York, NY","2018 – Present","Consulting on Ethergeist. "
-"Senior Data Scientist","Blackboard Inc.","Washington, DC","2015-2018","Worked on implementing knowledge transfer related to acquisition of X-Ray Learning Analytics (acquired by Blackboard in 2015). Business Intelligence, Implementation of X-Ray algorithms in Blackboard Learn. Retention Risk Modelling."
-"Principal Researcher","X-Ray Research","Montevideo, Uruguay","2011-2015","In charge or research and development of learning analytics platform: X-Ray Learning Analytics."
-"Principal Researcher","X-Ray Research","Montevideo, Uruguay","2011-2015","X-Ray Learning Analytics acquired by Blackboard in 2015."
-"Principal and Owner","UVCMS","Buenos Aires, Argentina","2003-2011","Oversaw development of technology and research based products."
-"Principal and Owner","UVCMS","Buenos Aires, Argentina","2003-2011","Implemented Artificial Intelligence in the development of 150+ online courses for McGraw-Hill. "
-"Principal and Owner","UVCMS","Buenos Aires, Argentina","2003-2011","Designed and implemented Content Authoring Engine."
-"Chief Technical Officer","SMC E-Learning","New York, NY","2001-2003","In charge of joint venture with Columbia Digital Knowledge Ventures."
-"Adjunct Professor","New York University","New York, NY",2000,"Taught two online and two face-to-face courses in Java and C++."
-"Research Assistant","Columbia University, Language research Lab.","New York, NY",1999,"Wrote white paper on distance learning."
-"Director for Computational Resources
-","College of New Rochelle","New York, NY",1999,"Oversaw on-campus computer centers and trained staff."
-"Adjunct Professor","College of New Rochelle","New York, NY",1999,"Taught Academic English"
-"Teaching Assistant","Teachers College – Columbia University","New York, NY",1998,"Responsible for the technical aspects of two online courses: Computers and Writing and Communicative Practices: Intercultural Perspectives."
-"Producer","Teachers College – Columbia University","New York, NY",1998,"Responsible for the design and implementation of two online courses: Computers and Writing, and Communicative Practices: Intercultural Perspectives."
-"Project Co-Director","Teachers College – Columbia University","New York, NY",1997,"Responsible for the technical aspects of data collection as well as statistical analyses for the research project: Project Transformations."
-"Coordinator","Centro Cultural Escandinavo","Quito – Ecuador","1994-1996","Responsible for all the center's activities."
+role,company,loc,dates,details
+Chief Data Scientist,X-Ray Research,"New York, NY",2018 – Present,Consulting on Ethergeist. 
+Senior Data Scientist,Blackboard Inc.,"Washington, DC",2015-2018,Worked on implementing knowledge transfer related to acquisition of X-Ray Learning Analytics (acquired by Blackboard in 2015).
+Senior Data Scientist,Blackboard Inc.,"Washington, DC",2015-2018,Developed and implemented predictive business intelligence.
+Senior Data Scientist,Blackboard Inc.,"Washington, DC",2015-2018,Oversaw scaling of X-Ray Learning Analytics from 3 to 2000+ clients.
+Senior Data Scientist,Blackboard Inc.,"Washington, DC",2015-2018,Oversaw implementation of X-Ray algorithms in Blackboard Learn.
+Senior Data Scientist,Blackboard Inc.,"Washington, DC",2015-2018,Developed and implemented retention risk modeling and meta-predictive retention risk modeling.
+Principal Researcher,X-Ray Research,"Montevideo, Uruguay",2011-2015,In charge or research and development of learning analytics platform: X-Ray Learning Analytics.
+Principal Researcher,X-Ray Research,"Montevideo, Uruguay",2011-2015,Planned and implemented transition of X-Ray Learning Analytics (acquired by Blackboard). 
+Principal and Owner,UVCMS,"Buenos Aires, Argentina",2003-2011,Oversaw development of technology and research based products.
+Principal and Owner,UVCMS,"Buenos Aires, Argentina",2003-2011,Implemented artificial intelligence in the development of 150+ online courses for McGraw-Hill. 
+Principal and Owner,UVCMS,"Buenos Aires, Argentina",2003-2011,Designed and implemented Content Authoring Engine (CAE).
+Chief Technical Officer,SMC E-Learning,"New York, NY",2001-2003,In charge of joint venture with Columbia Digital Knowledge Ventures.
+Adjunct Professor,New York University,"New York, NY",2000,Taught two online and two face-to-face courses in Java and C++.
+Research Assistant,"Columbia University, Language research Lab.","New York, NY",1999,Wrote white paper on distance learning.
+"Director for Computational Resources",College of New Rochelle,"New York, NY",1999,Oversaw on-campus computer centers and trained staff.
+Adjunct Professor,College of New Rochelle,"New York, NY",1999,Taught Academic English
+Teaching Assistant and Producer,Teachers College – Columbia University,"New York, NY",1998,"Responsible for the design, implementation and technical aspects of two online courses."
+Project Co-Director,Teachers College – Columbia University,"New York, NY",1997,Responsible for data collection and statistical analyses for 'Project Transformations'.
+Project Co-Director,Teachers College – Columbia University,"New York, NY",1997,"Served as liason with ORACLE, the project sponsor."
+Coordinator,Centro Cultural Escandinavo,Quito – Ecuador,1994-1996,Responsible for all the center's activities.

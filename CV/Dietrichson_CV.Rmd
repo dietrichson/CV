@@ -22,7 +22,7 @@ education <- read.csv('./Dietrichson_education.csv')
 professional_experience <- read.csv('./Dietrichson_professional.csv')
 research_appointments <- 
   tribble(~title, ~dates, ~uni, ~loc, ~details,
-  "Visiting Researcher","2003-2005","Keyo University","Tokyo, Japan","Worked on research based curriculum design for online courses in Academic English.",
+  "Visiting Researcher","2003-2005","Keio University","Tokyo, Japan","Worked on research based curriculum design for online courses in Academic English.",
   "Technology Fellow", "1999-2000", "Teachers College - Columbia University", "New York, NY", "Research on LMS and courseware usability."
 )
 
@@ -44,7 +44,7 @@ research_appointments %>%
 # Professional Experience
 ```{r}
 professional_experience %>% 
- detailed_entries(role, dates, company, loc, details)
+ detailed_entries(role, dates, company, loc, details, .protect = FALSE)
 ```
 
 # Publications
