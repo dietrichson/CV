@@ -50,9 +50,6 @@ professional_experience %>%
 # Publications
 
 ```{r}
-
-
-
 bibliography_entries("./dietrichson_bibliography.bib", 
                      title="Selected Papers and Presentations",
                      sorting = "ydnt")
