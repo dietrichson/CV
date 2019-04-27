@@ -1,8 +1,6 @@
 ---
 name: Aleksander Dietrichson
-position: "Chief Data Scientist"
-address: "X-Ray Research"
-phone: +1 646 783 0620 / +54 (911) 6408 3613
+phone: +54 (911) 6408 3613
 email: "dietrichson@gmail.com"
 github: dietrichson
 linkedin: dietrichson
@@ -29,7 +27,7 @@ education%>%
   detailed_entries(degree, dates, uni, loc, details)
 ```
 
-# Experiencia Profesional
+# Experiencia profesional
 ```{r}
 professional_experience %>% 
  detailed_entries(role, dates, company, loc, details, .protect = FALSE)
@@ -44,6 +42,6 @@ bibliography_entries("./dietrichson_bibliography.bib",
 ```
 
 ```{r}
-bibliography_entries("./dietrichson_r_packages.bib", title="Contribuciones a CRAN")
+bibliography_entries("./dietrichson_r_packages.bib", title="Contribuciones al Comprehensive R Archive Network (CRAN)")
 ```
 
