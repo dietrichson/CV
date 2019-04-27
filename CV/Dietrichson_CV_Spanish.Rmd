@@ -19,7 +19,7 @@ library(tidyverse)
 
 ```{r LoadData, include=FALSE}
 education <- read.csv('./Dietrichson_education_spanish.csv')
-professional_experience <- read.csv('./Dietrichson_professional.csv')
+professional_experience <- read.csv('./Dietrichson_professional_spanish.csv')
 research_appointments <- 
   tribble(~title, ~dates, ~uni, ~loc, ~details,
   "Visiting Researcher","2003-2005","Keio University","Tokyo, Japan","Desarrollo de cursos online de inglés académico.",
