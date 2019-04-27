@@ -7,7 +7,7 @@ email: "dietrichson@gmail.com"
 github: dietrichson
 linkedin: dietrichson
 headcolor: 414141
-date: "`r format(Sys.time(), '%B %Y')`"
+date: "Abril 2019"
 output: vitae::awesomecv
 ---
 
@@ -20,12 +20,6 @@ library(tidyverse)
 ```{r LoadData, include=FALSE}
 education <- read.csv('./Dietrichson_education_spanish.csv')
 professional_experience <- read.csv('./Dietrichson_professional_spanish.csv')
-research_appointments <- 
-  tribble(~title, ~dates, ~uni, ~loc, ~details,
-  "Visiting Researcher","2003-2005","Keio University","Tokyo, Japan","Desarrollo de cursos online de inglés académico.",
-  "Technology Fellow", "1999-2000", "Teachers College - Columbia University", "New York, NY", "Investigación de usabilidad de aulas virtuales y contenidos para cursos online."
-)
-
 ```
 
 
@@ -33,12 +27,6 @@ research_appointments <-
 ```{r}
 education%>% 
   detailed_entries(degree, dates, uni, loc, details)
-```
-
-# Estancias y Cargos Académicos
-```{r}
-research_appointments %>% 
-  detailed_entries(title, dates, uni, loc, details)
 ```
 
 # Experiencia Profesional
@@ -51,11 +39,11 @@ professional_experience %>%
 
 ```{r}
 bibliography_entries("./dietrichson_bibliography.bib", 
-                     title="Selected Papers and Presentations",
+                     title="Publicaciones y Presentaciones seleccionadas",
                      sorting = "ydnt")
 ```
 
 ```{r}
-bibliography_entries("./dietrichson_r_packages.bib", title="CRAN Contributions")
+bibliography_entries("./dietrichson_r_packages.bib", title="Contribuciones a CRAN")
 ```
 
