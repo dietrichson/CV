@@ -5,7 +5,8 @@ email: "dietrichson@gmail.com"
 github: dietrichson
 linkedin: dietrichson
 headcolor: 414141
-date: "Abril 2019"
+date: "January 2021"
+biblio-style: apalike
 output: vitae::awesomecv
 ---
 
@@ -16,8 +17,8 @@ library(tidyverse)
 ```
 
 ```{r LoadData, include=FALSE}
-education <- read.csv('./Dietrichson_education_spanish.csv')
-professional_experience <- read.csv('./Dietrichson_professional_spanish.csv')
+education <- readr::read_csv('./Dietrichson_education_spanish.csv')
+professional_experience <- readr::read_csv('./Dietrichson_professional_spanish.csv')
 ```
 
 
@@ -35,13 +36,21 @@ professional_experience %>%
 
 # Publicaciones
 
-```{r}
-bibliography_entries("./dietrichson_bibliography.bib", 
-                     title="Publicaciones y Presentaciones seleccionadas",
-                     sorting = "ydnt")
-```
+## Publicaciones y presentaciones seleccionadas
 
 ```{r}
-bibliography_entries("./dietrichson_r_packages.bib", title="Contribuciones al Comprehensive R Archive Network (CRAN)")
+bibliography_entries("./dietrichson_bibliography.bib") %>% 
+  arrange(desc(issued))
+
+```
+
+
+\newpage
+
+## Contribuciones al «Comprehensive R Archive Network» (CRAN)
+
+```{r}
+bibliography_entries("./dietrichson_r_packages.bib") %>% 
+  arrange(desc(issued))
 ```
 
