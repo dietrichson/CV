@@ -1,8 +1,8 @@
 ---
 name: Aleksander Dietrichson
-position: "Chief Data Scientist"
-address: "X-Ray Research"
-phone: +1 646 783 0620 / +54 (911) 6408 3613
+position: "Chief Science Officer"
+address: "Chi Square Laboratories"
+phone: +54 (911) 6408 3613
 email: "dietrichson@gmail.com"
 github: dietrichson
 linkedin: dietrichson
@@ -50,12 +50,11 @@ professional_experience %>%
 # Publications
 
 ```{r}
-bibliography_entries("./dietrichson_bibliography.bib", 
-                     title="Selected Papers and Presentations",
-                     sorting = "ydnt")
+bibliography_entries("./dietrichson_bibliography.bib")
 ```
+# CRAN contributions
 
 ```{r}
-bibliography_entries("./dietrichson_r_packages.bib", title="CRAN Contributions")
+bibliography_entries("./dietrichson_r_packages.bib")
 ```
 
